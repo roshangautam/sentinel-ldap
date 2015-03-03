@@ -4,7 +4,7 @@
 
 Sentinel LDAP is a Cartalyst `Sentinel` addon and lets you authenticate your users using LDAP (Active Directory).
 
-The package requires PHP 5.4+ and comes bundled with a Laravel 4 Facade and a Service Provider to simplify the optional framework integration and follows the FIG standard PSR-4 to ensure a high level of interoperability between shared PHP code and is fully unit-tested. The package also requires that you have [php5-ldap](http://php.net/manual/en/book.ldap.php) extension installed in your server.
+The package requires PHP 5.4+ and comes bundled with a Laravel 4 Facade and a Service Provider to simplify the optional framework integration and follows the FIG standard PSR-4 to ensure a high level of interoperability between shared PHP code. The package also requires that you have [php5-ldap](http://php.net/manual/en/book.ldap.php) extension installed in your server.
 
 ## Installation
 
