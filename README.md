@@ -1,6 +1,6 @@
 # Sentinel LDAP Addon
 
-[![Build Status](http://ci.cartalyst.com/build-status/svg/31)]
+[![Build Status](https://travis-ci.org/roshangautam/sentinel-ldap.svg?branch=master)](https://travis-ci.org/roshangautam/sentinel-ldap)
 
 Sentinel LDAP is a `Sentinel` addon lets you authenticate your users through LDAP.
 
