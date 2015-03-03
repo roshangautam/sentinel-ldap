@@ -20,7 +20,7 @@ Sentinel LDAP is installable with Composer. Follow the instructions below
 5. Open app/config/app.php and include 
 	'Roshangautam\Sentinel\Addons\Ldap\Laravel\LdapServiceProvider'
    in providers array and 
-	'LDAP'          	=> 'ITS\Sentinel\Addons\Ldap\Laravel\Facades\Ldap' 
+	'LDAP'          	=> 'Roshangautam\Sentinel\Addons\Ldap\Laravel\Facades\Ldap' 
    in aliases array
 6. To enable LDAP login use LDAP::authenticate instead of using Sentinel::authenticate. 
 
