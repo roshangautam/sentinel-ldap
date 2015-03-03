@@ -14,7 +14,7 @@ class LdapServiceProvider extends \Illuminate\Support\ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('roshanguatam/sentinel-ldap', 'roshangautam/sentinel-ldap', __DIR__.'/..');
+		$this->package('roshangautam/sentinel-ldap', 'roshangautam/sentinel-ldap', __DIR__.'/..');
 	}
 
 	/**
