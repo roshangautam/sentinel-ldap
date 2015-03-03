@@ -2,9 +2,9 @@
 
 [![Build Status](https://travis-ci.org/roshangautam/sentinel-ldap.svg?branch=master)](https://travis-ci.org/roshangautam/sentinel-ldap)
 
-Sentinel LDAP is a `Sentinel` addon lets you authenticate your users through LDAP.
+Sentinel LDAP is a Cartalyst `Sentinel` addon and lets you authenticate your users using LDAP (Active Directory).
 
-The package requires PHP 5.4+ and comes bundled with a Laravel 4 Facade and a Service Provider to simplify the optional framework integration and follows the FIG standard PSR-4 to ensure a high level of interoperability between shared PHP code and is fully unit-tested.
+The package requires PHP 5.4+ and comes bundled with a Laravel 4 Facade and a Service Provider to simplify the optional framework integration and follows the FIG standard PSR-4 to ensure a high level of interoperability between shared PHP code and is fully unit-tested. The package also requires that you have [php5-ldap](http://php.net/manual/en/book.ldap.php) extension installed in your server.
 
 ## Installation
 
@@ -17,7 +17,7 @@ Sentinel LDAP is installable with Composer. Follow the instructions below
 2. Run composer update
 3. Run php artisan config:publish roshangautam/sentinel-ldap
 4. Open app/config/packages/roshangautam/sentinel-ldap/config.php and populate the parameters
-5. To enable LDAP login use LDAP::authenticate instead of using Sentinel::authenticate.
+5. To enable LDAP login use LDAP::authenticate instead of using Sentinel::authenticate. 
 
 Thats it. Have fun.
 
