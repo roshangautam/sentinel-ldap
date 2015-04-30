@@ -57,7 +57,7 @@ class Manager {
 	public function authenticate($credentials, $remember = false)
 	{
 
-		$config = Config::get('roshangautam/sentinel-ldap::ldap');
+		$config = config('roshangautam.sentinel-ldap');
 
 		if($conn = $this->connect($config['host'], $config['port'])) 
 		{

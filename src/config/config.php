@@ -2,22 +2,18 @@
 
 return [
 
+	'host' => '',
 
-	'ldap' => [
+	'port' => 389,
 
-		'host' => '',
+	'search_user_dn' => '',
 
-		'port' => 389,
+	'search_base' => '',
 
-		'search_user_dn' => '',
+	'login_attribute' => 'sAMAccountName',
 
-		'search_base' => '',
+	'search_password' => '',
 
-		'login_attribute' => 'sAMAccountName',
-
-		'search_password' => '',
-
-		'LDAP_OPT_DIAGNOSTIC_MESSAGE' =>  0x0032
-	],
+	'LDAP_OPT_DIAGNOSTIC_MESSAGE' =>  0x0032,
 
 ];
