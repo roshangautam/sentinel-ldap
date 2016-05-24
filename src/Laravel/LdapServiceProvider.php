@@ -14,7 +14,9 @@ class LdapServiceProvider extends \Illuminate\Support\ServiceProvider {
 	 */
 	public function boot()
 	{
-		$this->package('roshangautam/sentinel-ldap', 'roshangautam/sentinel-ldap', __DIR__.'/..');
+		$this->publishes([
+			__DIR__.'/../config/config.php' => config_path('roshangautam/sentinel-ldap.php'),
+		]);
 	}
 
 	/**
@@ -22,7 +24,10 @@ class LdapServiceProvider extends \Illuminate\Support\ServiceProvider {
 	 */
 	public function register()
 	{
-
+		$this->mergeConfigFrom(
+			__DIR__.'/../config/config.php', 'roshangautam.sentinel-ldap'
+		);
+		
 		$this->registerSentinelLdap();
 	}
 
